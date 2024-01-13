@@ -1,0 +1,26 @@
+.btn-inline {
+  &:link,
+  &:visited {
+    display: inline-block;
+    font-size: 2rem;
+    color: #06c;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    text-decoration: underline #06c;
+  }
+}
+
+.btn__container {
+  display: flex;
+  gap: 5rem;
+}
+
+.product-btn__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

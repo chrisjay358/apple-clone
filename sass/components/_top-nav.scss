@@ -1,0 +1,53 @@
+.top-nav {
+  background: #333;
+  color: #eee;
+
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    height: 6.5rem;
+    gap: 1.5rem;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+  }
+
+  &__input-box {
+    display: flex;
+    gap: 1.5rem;
+    margin-inline-start: auto;
+    font-family: inherit;
+
+    select {
+      padding: 0.8rem 3rem;
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+      letter-spacing: 0.7px;
+      background: rgba(102, 102, 102, 0.483);
+      color: #fff;
+      border: none;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 0.8rem;
+  background: #fff;
+}
+
+.btn-cancel {
+  border: none;
+  background: none;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #eee;
+}

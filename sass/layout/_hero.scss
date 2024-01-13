@@ -1,0 +1,53 @@
+.hero {
+  margin-block-start: 6.5rem;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  &__text-box {
+    margin-bottom: 7rem;
+    margin-bottom: 4.5rem;
+    text-align: center;
+    font-weight: 300;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo {
+    width: 25rem;
+    margin-block-end: 0.5rem;
+  }
+
+  &__heading {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-block-end: 1.5rem;
+  }
+
+  &__text {
+    font-size: 2rem;
+    color: #777;
+    width: 80%;
+    line-height: 1.2;
+    margin-block-end: 2rem;
+  }
+}
+
+.btn-inline {
+  &:link,
+  &:visited {
+    display: inline-block;
+    font-size: 2rem;
+    color: #06c;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    text-decoration: underline #06c;
+  }
+}

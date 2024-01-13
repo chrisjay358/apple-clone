@@ -1,0 +1,32 @@
+.header {
+  background: #161617c3;
+  backdrop-filter: blur(1rem);
+
+  position: fixed;
+  inset-block-start: 6.5rem;
+  inset-inline-start: 0;
+  width: 100%;
+}
+
+.nav {
+  &__list {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+  }
+
+  // &__item {}
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: #eee;
+  }
+
+  &__icon {
+    fill: #eee;
+  }
+}

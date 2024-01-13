@@ -1,0 +1,16 @@
+.slider {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.3rem;
+  grid-auto-flow: column;
+  overflow: scroll;
+
+  &__img {
+    display: block;
+    height: 50rem;
+  }
+
+  &:hover &__img:not(:hover) {
+    opacity: 0.4;
+  }
+}

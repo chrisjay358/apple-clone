@@ -1,0 +1,15 @@
+{
+  "name": "apple",
+  "version": "1.0.0",
+  "description": "Apple's landing page",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass -w sass/main.scss:css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
