@@ -1,15 +1,12 @@
 .hero {
-  background: url(../../img/hero_apple_vision_pro__e8407ehady6i_large_2x.jpg);
-  background-position: center 20%;
-  background-size: 280%;
+  background: url(../img/hero_apple_vision_pro__e8407ehady6i_large_2x.jpg);
+  background-position: center 24%;
+  background-size: 290%;
   height: calc(100vh - 7.2rem);
-  // position: relative;
-  top: -4.6rem;
-  z-index: -1;
 }
 
 .section-iphone15pro {
-  background: url(../../img/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+  background: url(../img/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 10rem);
@@ -18,7 +15,7 @@
 }
 
 .section-iphone15 {
-  background: url(../../img/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
+  background: url(../img/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 10rem);

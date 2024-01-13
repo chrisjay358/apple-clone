@@ -84,22 +84,22 @@ body {
   gap: 1.3rem;
 }
 .product__watch--1 {
-  background-image: url(../../img/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg);
+  background-image: url(../img/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg);
 }
 .product__watch--2 {
-  background-image: url(../../img/promo_apple_watch_ultra2_order__dyxqj5ia98om_large_2x.jpg);
+  background-image: url(../img/promo_apple_watch_ultra2_order__dyxqj5ia98om_large_2x.jpg);
 }
 .product__mac {
-  background-image: url(../../img/promo_mbp__ek7p477bkp6q_large_2x.jpg);
+  background-image: url(../img/promo_mbp__ek7p477bkp6q_large_2x.jpg);
 }
 .product__fitness {
-  background-image: url(../../img/promo_fitness_alt__ck26n46yeb2a_medium_2x.jpg);
+  background-image: url(../img/promo_fitness_alt__ck26n46yeb2a_medium_2x.jpg);
 }
 .product__card {
-  background-image: url(../../img/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-image: url(../img/tile__cauwwcyyn9hy_large_2x.jpg);
 }
 .product__trade-in {
-  background-image: url(../../img/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+  background-image: url(../img/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
 }
 .product__img {
   display: block;
@@ -291,8 +291,7 @@ body {
   justify-content: center;
 }
 .hero__text-box {
-  margin-bottom: 7rem;
-  margin-bottom: 4.5rem;
+  margin-block-end: 5.5rem;
   text-align: center;
   font-weight: 300;
   display: flex;
@@ -301,16 +300,17 @@ body {
   justify-content: center;
 }
 .hero__logo {
-  width: 25rem;
+  width: 28rem;
   margin-block-end: 0.5rem;
 }
 .hero__heading {
   font-size: 2.4rem;
+  font-size: 2.65rem;
   font-weight: 400;
   margin-block-end: 1.5rem;
 }
 .hero__text {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #777;
   width: 80%;
   line-height: 1.2;
@@ -360,16 +360,14 @@ body {
 }
 
 .hero {
-  background: url(../../img/hero_apple_vision_pro__e8407ehady6i_large_2x.jpg);
-  background-position: center 20%;
-  background-size: 280%;
+  background: url(../img/hero_apple_vision_pro__e8407ehady6i_large_2x.jpg);
+  background-position: center 24%;
+  background-size: 290%;
   height: calc(100vh - 7.2rem);
-  top: -4.6rem;
-  z-index: -1;
 }
 
 .section-iphone15pro {
-  background: url(../../img/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+  background: url(../img/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 10rem);
@@ -378,7 +376,7 @@ body {
 }
 
 .section-iphone15 {
-  background: url(../../img/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
+  background: url(../img/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 10rem);
